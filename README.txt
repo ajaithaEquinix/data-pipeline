@@ -12,7 +12,7 @@ Read the config.properties file. Whenever running the file the following details
 
 To run the program, compile and run pipeline.java
 
-Required JARs are:
+Required JARs:
 ojdbc6.jar
 hadoop-core-1.2.2.jar
 hive-jdbc.jar
