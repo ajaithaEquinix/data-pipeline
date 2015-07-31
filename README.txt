@@ -11,3 +11,8 @@ Read the config.properties file. Whenever running the file the following details
 9) the property is the individual table names as stored in hive and the contents are comma seperated list of the columns that help make rows unique
 
 To run the program, compile and run pipeline.java
+
+Required JARs are:
+ojdbc6.jar
+hadoop-core-1.2.2.jar
+hive-jdbc.jar
