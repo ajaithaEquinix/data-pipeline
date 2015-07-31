@@ -32,10 +32,6 @@ public class RDBMSConnection {
 		}
 		conn = null;
 		try {
-//			conn = DriverManager
-//					.getConnection(
-//							"jdbc:oracle:thin:@mwdevdb-a01.sv2.corp.equinix.com:1521:MWDBDEVA",
-//							username, password);
 			conn = DriverManager.getConnection(rdbmsURI, username, password);
 		} catch (SQLException e) {
 			System.out.println("SQLException");
